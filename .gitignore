@@ -32,6 +32,8 @@
 .vs/
 Debug/
 Release/
+Debug_86/
+Release_86/
 
 # https://github.com/microsoft/vcpkg/blob/master/.gitignore
 *.user
@@ -43,5 +45,13 @@ src/framework.js
 src/framework.js.map
 src/framework.css
 src/framework.css.map
-js-framework/node_modules/
-js-framework/package-lock.json
+src/js-framework/node_modules/
+src/js-framework/package-lock.json
+
+# VS
+*.vcxproj.user
+enc_temp_folder
+
+# VCPKG packages
+vcpkg_installed/
+vcpkg_installed_86/
